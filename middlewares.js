@@ -20,8 +20,8 @@ const authPassword=(grant)=>{
     }
 }
 
-const paramMiddleware=(req,res,next)=>{
+/* const paramMiddleware=(req,res,next)=>{
     
-}
+} */
 
 module.exports={authRole,authPassword};
